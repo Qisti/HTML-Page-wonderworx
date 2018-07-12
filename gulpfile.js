@@ -5,6 +5,7 @@ const gulpUglify = require('gulp-uglify');
 const gulpConnect = require('gulp-connect');
 const gulpHtmlmin = require('gulp-htmlmin');
 const image = require('gulp-image');
+const gulpSequence = require('gulp-sequence');
 
 gulp.task('minify-css', function() {
   gulp.src('./public/assets/CSS/style.css')
