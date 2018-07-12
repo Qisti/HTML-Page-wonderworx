@@ -41,7 +41,7 @@ gulp.task('image', function () {
 
 gulp.task('server', function() {
   gulpConnect.server({
-    root: 'build/view/',
+    root: 'build/',
     livereload: true
   });
 });
