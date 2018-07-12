@@ -51,3 +51,7 @@ gulp.task('watch', function() {
   gulp.watch('./public/assests/CSS/*.css', ['minify-css']);
   gulp.watch('./view/*.html', ['minify-html']);
 });
+
+gulp.task('build', gulpSequence('minify-css', 'minify-js', 'minify-html', 'image'));
+
+gulp.task('default', ['watch', 'server']);
