@@ -23,9 +23,10 @@ Skeleton/
     └── index.html
 ```
 
-### How to use
+### Setting up in your local machine
 1. Make sure you have installed `npm`
+2. Clone this repository to your directory `git clone https://github.com/Qisti/HTML-Page-wonderworx.git`
 2. Run `npm install`
 3. Run `gulp build`
-4. Run `gulp`
+4. Run `gulp server`
 5. Go to `localhost:8080` at your browser

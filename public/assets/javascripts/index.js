@@ -1,4 +1,4 @@
-$(document).ready(function(){
+$(document).ready(function() {
   $(".designer-button").click(function() {
     $('html, body').animate({
       scrollTop: $("#designer").offset().top
@@ -16,16 +16,6 @@ $(document).ready(function(){
       scrollTop: $(".float").offset().top
     }, 2000);
   })
-
-  // $(".icon").waypoint(function() {
-  //   $('.icon').addClass('bounce');
-  // });
-
-  $(".float").waypoint(function() {
-    $(".float").addClass("animated zoomInUp");
-  }, {
-    offset: "70%"
-  });
 
   function isScrolledIntoView(elem) {
     var docViewTop = $(window).scrollTop();
@@ -46,4 +36,3 @@ $(document).ready(function(){
   });
 
 });
-

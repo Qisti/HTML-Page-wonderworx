@@ -1,12 +1,12 @@
 {
   "name": "front-wonderworx",
   "version": "1.0.0",
-  "description": "",
+  "description": "Slicing Wonderworx UI",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Qisti",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.1",
@@ -15,9 +15,7 @@
     "gulp-htmlmin": "^4.0.0",
     "gulp-image": "^4.3.0",
     "gulp-minify-css": "^1.2.4",
-    "gulp-uglify": "^3.0.0"
-  },
-  "dependencies": {
+    "gulp-uglify": "^3.0.0",
     "gulp-sequence": "^1.0.0"
   }
 }
